@@ -33,7 +33,8 @@ function onFormSubmit(evt) {
   evt.preventDefault();
 //   console.log('отправляем форму');
   console.log(formData);
-
+// сбрасываем сабмит
+  formData = {};
 //   // очищаем форму
   evt.currentTarget.reset();
 //   // очищаем в сторедже и текстерия при сабмите
