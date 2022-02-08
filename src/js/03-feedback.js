@@ -58,7 +58,7 @@ function populateTextarea(evt) {
   // при перезагрузке страницы
   // получаем значение из локал стореджа
   const saveMessage = localStorage.getItem(STORAGE_KEY)
-  console.log(saveMessage);
+//   console.log(saveMessage);
   // если ключа нет вернет null но ничего не выполнится
   if (saveMessage) {
      //  если да, сохранни поченные значения из локалстореджа
