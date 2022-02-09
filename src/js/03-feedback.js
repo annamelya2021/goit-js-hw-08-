@@ -13,7 +13,7 @@ populateTextarea()
 
 refs.form.addEventListener('submit', onFormSubmit);
 // добавляем throttle
-refs.form.addEventListener('input',throttle(onTextareaInput, 1000));
+refs.form.addEventListener('input',throttle(onTextareaInput, 500));
 
 
 // // refs.form.addEventListener('input', evt => {
