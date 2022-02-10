@@ -12,7 +12,10 @@ const KEY = "videoplayer-current-time"
 //     // data is an object containing properties specific to that event
 // };
 const onPlay = function (data) {
-// получаем значение
+
+// console.log('data :>> ', data);
+ // на data усть seconds, percent and duration
+// отбираем в переменную секунды и получаем значение
     const time = data.seconds
     console.log(time);
 // значение из инпута всегда строка стригифаим только масивы и обьекты
